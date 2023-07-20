@@ -11,15 +11,15 @@
 }
 
 :root{
-    --color-text: #cdc6c3;
-    --hover-color: #70efbf;
+    --color-text: #8a3b19;
+    --hover-color: #030806;
     --neon-box-shadow: 0 0 .5rem #70efbf;
     --index: calc(1vw + 1vh);
 }
 
 body{
     font-family: 'Outfit', sans-serif;
-    background-image: url(images/background.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +27,7 @@ body{
 }
 
 a{
-    color: #fff;
+    color: #c43636;
 }
 
 header{
@@ -118,7 +118,7 @@ header .navlist{
 
 .marsbtn:hover{
     background: linear-gradient(180deg , #4faa86 0 , #82ecc5 100%);
-    box-shadow: 0 3px 9px #a3e2ca;    
+    box-shadow: 0 3px 9px #35b885;    
 }
 
 #menu-icon{
@@ -159,7 +159,7 @@ section{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2 , 1fr);
-    color: #fff;
+    color: #3b0909;
     width: 100%;
 }
 
